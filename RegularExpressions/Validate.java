@@ -20,7 +20,11 @@ public class Validate {
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 
         // get first name from the user
+<<<<<<< HEAD
         System.out.println("Please enter first name, you may want to isolate things:");
+=======
+        System.out.println("Please enter first name, you may want to isolate:");
+>>>>>>> 75bdb251aec6add8df8094843cb2088783699a24
         String firstName = bufferedReader.readLine();
 
         // get last name from the user
